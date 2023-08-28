@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ullmann Laboratories</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/vendor/OwlCarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/vendor/OwlCarousel/assets/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="assets/vendor/icofont/icofont.min.css">
+
+    <link rel="stylesheet" href="assets/css/main.css">
+    <script src="assets/js/w3.js"></script>
+    <link rel="icon"  type="image/png"  href="./assets/images/fav.png">
+
+</head>
+
+<body>
+
+    <div class="container-fluid  box-shodow-custom border-md-radius"  w3-include-html="header.html"></div>
+    
+
+    <!--=================================== contents===================== -->
+
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col-12 ">
+                <div class="page-title d-flex w-100 justify-content-center ">
+                    <h2>Quality Policy</h2>
+                </div>
+                <p> Ullmann Laboratories Private Limited is committed to provide testing and Certification Services
+                    to its customers which will be reliable and of quality acceptable to the industry and exceed
+                    the expectation of our customers.</p>
+
+                <p> To achieve this quality objectives ULPL:</p>
+                <ul>
+                    <li>
+                        Uphold and support the quality policy by management at all levels.
+                    </li>
+                    <li>
+                        Ensure and uphold good laboratory practices with a high standard of testing services that will
+                        allow us to meet or exceed the requirements of our customers.
+                    </li>
+                    <li>
+                        Operate all testing in conformance with the laboratory procedures and stated test methods with
+                        competence, reliability and efficiency.
+                    </li>
+                    <li>
+                        Implement and maintain documented management system to meet the requirements of ISP/IEC17025.
+                    </li>
+                    <li>
+                        Ensure that all laboratory personnel aur competent, adequately trained, familiarise with the
+                        quality documentation and committed to implement the policies and procedures in their work.
+                    </li>
+                    <li>
+                        Comply with, ISO/ IEC and GLP requirements.
+                    </li>
+                    <li>
+                        Carry out the periodic review / audit of staff and related work are undertaken to ensure that
+                        standards are maintained and opportunities for continuous improvements.
+                    </li>
+                    <li>
+                        This Quality Policy is Endorsed by.
+                    </li>
+                </ul>
+                <p class="text-right">
+                    -- Managing Director.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===========End Contents========================================= -->
+
+
+    <footer class="container-fluid bg-custom-primary pt-4 pb-4" w3-include-html="footern.html"></footer>
+
+    <script>
+        w3.includeHTML();
+    </script>
+    <script src="assets/vendor/jquery/jquery.min.js"></script>
+    <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+    <script src="assets/vendor/popper/popper.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script>
+    
+        $(document).scroll(()=>{
+          var scr = $(document).scrollTop() ;
+          console.log(scr)
+          if(scr>134){
+            $('#header').slideDown();
+           
+          }else{
+            $('#header').slideUp();
+          }
+        });
+      // var date = new Date();
+      // var months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'June', 'July', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+      // document.getElementById('date').innerHTML = months[date.getMonth()] + ' - ' + date.getFullYear();
+      </script>
+</body>
+
+</html>

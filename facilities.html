@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ullmann Laboratories</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/vendor/OwlCarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/vendor/OwlCarousel/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="assets/vendor/nivo-slider/css/nivo-slider.css">
+    <link rel="stylesheet" href="assets/vendor/fancybox/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="assets/vendor/aos/aos.css">
+    <link rel="stylesheet" href="assets/vendor/icofont/icofont.min.css">
+    <link rel="stylesheet" href="assets/vendor/hover/hover-min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <script src="assets/js/w3.js"></script>
+    <link rel="icon"  type="image/png"  href="./assets/images/fav.png">
+    <style>
+        .wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .wrapper-item {
+            width: 250px;
+            text-align: center;
+            border: 1px solid #d0d0d06e;
+            padding: 10px 0px;
+        }
+
+        .wrapper-item img {
+
+            width: auto;
+            margin: 0 auto;
+            transition: all 1s;
+        }
+
+        @media(min-width:600px) {
+            .wrapper-item img {
+                height: 80px;
+            }
+        }
+
+        .wrapper-item:hover {
+            box-shadow: 0px 0px 12px 0px #9e9e9e91;
+        }
+
+        .wrapper-item:hover {
+            box-shadow: 0px 0px 12px 0px #9e9e9e91;
+            color: rgb(1, 182, 122);
+            font-weight: 700;
+        }
+
+        .list-card {
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 280px;
+            height: 60px;
+            margin: 8px 5px;
+            padding: 5px;
+            box-shadow: 0px 0px 5px 0px #00b8ff5c;
+            border-radius: 3px;
+        }
+        .inner-equip h4{
+            color:rgba(22, 22, 22, 0.801);
+            font-weight: 500;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid  box-shodow-custom border-md-radius" w3-include-html="header.html"></div>
+   
+    <!-- <div style="margin-bottom: 3px;"></div> -->
+
+    <div class="container-fluid  mt-3">
+        <div class="row">
+
+            <!-- <div class="col-md-6 bg-custom-primary py-5 o-visible">
+
+            </div> -->
+            <div class="col-md-12 bg-white  pl-5 pl-md-5">
+                <div class="page-title ">
+                    <h2 class="text-center text-dark">Our Laboratory</h2>
+                </div>
+                
+                <p class="ml-0 ml-md-5">
+                    State of art facilities includes over 5000 Sq Ft of analytical Space, with temperature and pressure
+                    control rooms for optimal instrument performance and minimal contamination potential. </p>
+                <div class="row pl-0 pl-md-5 mt-4">
+                    <!-- <div class="col-xs-12 col-sm-6">
+                        <i class="icofont-tick-boxed text-dark"></i> World class Wild Medicinal Mushrooms <br>
+                        <i class="icofont-tick-boxed text-dark"></i> World class Mushroom Museum <br>
+                        <i class="icofont-tick-boxed text-dark"></i> Culture Laboratory <br>
+                        <i class="icofont-tick-boxed text-dark"></i> Analytical method <br>
+                    </div>
+                    <div class="col-xs-12 col-sm-6">
+                        <i class="icofont-tick-boxed text-dark"></i> World class Wild Medicinal Mushrooms <br>
+                        <i class="icofont-tick-boxed text-dark"></i> World class Mushroom Museum <br>
+                        <i class="icofont-tick-boxed text-dark"></i> Culture Laboratory <br>
+                        <i class="icofont-tick-boxed text-dark"></i> Analytical method <br>
+                    </div> -->
+                </div>
+                <!-- <p class="ml-0 ml-md-5 mt-5">
+                    Ullmann Laboratories Private Limited established in 2012 is a leading provider of independent analytical
+                    services for chemical and microbiological attributes of products.
+                    Ullmann Laboratories Private Limited established in 2012 is a leading provider of independent analytical
+                    services for chemical and microbiological attributes of products.
+                </p> -->
+
+            </div>
+
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <!-- <div class="col-md-6   parallax-bg" id="fssimg"></div> -->
+            <div class="col-md-12  bg-light">
+                <div id="fsscontent" class="py-1">
+                    <div class="d-flex justify-content-center">
+                        <h2 class="pl-5 text-dark text-center underlinee"> Equipments </h2>
+                    </div>
+                    
+                <div class="container px-1">
+                    <div class="owl-carousel owl-theme mt-4" id="equip">
+
+                        <div class="item">
+                            <div class="outer-equip">
+                                <img src="assets/images/ulmann-img-new/lab-11.JPG" alt="Shimadzu HPLC">
+                            </div>
+                            <div class="inner-equip">
+                                <p class="text-dark">
+                                <h4> Shimadzu HPLC </h4>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="outer-equip">
+                                <img src="assets/images/ulmann-img-new/particle-size.jpg" alt="Particle Size analyser">
+                            </div>
+                            <div class="inner-equip">
+                                <p class="text-dark">
+                                <h4>Particle Size Analyser </h4>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="outer-equip">
+                                <img src="assets/images/ulmann-img-new/gas-chromatograph.jpg" alt="Gas Chromatograph">
+                            </div>
+                            <div class="inner-equip">
+                                <p class="text-dark">
+                                <h4> Gas Chromatography </h4>
+                                </p>
+                            </div>
+                        </div>
+                        <!-- <div class="item">
+                            <div class="outer-equip">
+                                <img src="assets/images/ulmann-img-new/fume-hood.JPG" alt="Fume Hood">
+                            </div>
+                            <div class="inner-equip">
+                                <p class="text-dark">
+                                <h4>Fume Hood / Muffle Furnace</h4>
+                                </p>
+                            </div>
+                        </div> -->
+                        <div class="item">
+                            <div class="outer-equip">
+                                <img src="assets/images/ulmann-img-new/incubator.JPG" alt="B.O.D Incubator">
+                            </div>
+                            <div class="inner-equip">
+                                <p class="text-dark">
+                                <h4>B.O.D Incubator</h4>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="outer-equip">
+                                <img src="assets/images/ulmann-img-new/auto-clave.JPG" alt="Drying Oven, Auto Clave">
+                            </div>
+                            <div class="inner-equip">
+                                <p class="text-dark">
+                                <h4>Drying Oven, Auto Clave</h4>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="outer-equip">
+                                <img src="assets/images/ulmann-img-new/bio-safety-one.JPG" alt="Bio safety Cabinet">
+                            </div>
+                            <div class="inner-equip">
+                                <p class="text-dark">
+                                <h4>Bio Safety Cabinet</h4>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="outer-equip">
+                                <img src="assets/images/ulmann-img-new/lab-9.JPG" alt="Vacuum oven">
+                            </div>
+                            <div class="inner-equip">
+                                <p class="text-dark">
+                                <h4>Vaccum Oven</h4>
+                                </p>
+                            </div>
+                        </div>
+    
+                    </div>
+                </div>
+                    <div class="container-fluid my-5 ">
+                        <div class="row">
+                            <div class="col ">
+                                <div class="d-flex flex-wrap  align-items-center pl-4">
+                                    <div class="list-card" style="      box-shadow: 0px 0px 5px 0px  #cb997e;color:white;background-color: #cb997e;font-weight: 600;">Two Shimadzu HPLC with UV/PDA/CAD Detector</div>
+                                    <div class="list-card"  style="     box-shadow: 0px 0px 5px 0px  #f7ff1d;color:white;background-color: #135f00;font-weight: 600;"> One Agilent HPLC with PDA/ Florescent Detector</div>
+                                     <div class="list-card"  style="    box-shadow: 0px 0px 5px 0px  #1ca800;color:white; background-color:#21c900;font-weight: 600;">TOC-Leyden</div>
+                                     <div class="list-card"  style="    box-shadow: 0px 0px 5px 0px  #a0c4ff;color:white; background-color:#498fff;font-weight: 600;">UV-Vis Spectrophotometer –Lambda 25</div>
+                                     <div class="list-card"  style="    box-shadow: 0px 0px 5px 0px  #ffc6ff;color:white; background-color:#990099;font-weight: 600;">One Shimadzu Preparative HPLC-LC8A</div>
+                                     <div class="list-card"  style="    box-shadow: 0px 0px 5px 0px  #f77f00;color:white; background-color:#f77f00;font-weight: 600;">Gas Chromatography - Perkin Elmer Auto System XL</div>
+                                     <div class="list-card"  style="    box-shadow: 0px 0px 5px 0px  #f72585;color:white; background-color:#f72585;font-weight: 600;">Particle Size Analyser for Dry & Wet Samples- Microtrac
+                                    </div>
+                                     <div class="list-card"  style="    box-shadow: 0px 0px 5px 0px  #b5179e;color:white; background-color:#b5179e;font-weight: 600;">Centrifuge</div>
+                                     <div class="list-card"  style="    box-shadow: 0px 0px 5px 0px  #7209b7;color:white; background-color:#7209b7;font-weight: 600;">Prototester</div>
+                                     <div class="list-card"  style="    box-shadow: 0px 0px 5px 0px  #76c893;color:white; background-color:#00ac3c;font-weight: 600;"> Conductivity Meter</div>
+                                     <div class="list-card"  style="    box-shadow: 0px 0px 5px 0px  #5390d9;color:white; background-color:#5390d9;font-weight: 600;">pH Meter</div>
+                                     <div class="list-card"  style="    box-shadow: 0px 0px 5px 0px  #40916c;color:white; background-color:#40916c;font-weight: 600;"> Lyophilizer – (105<sup style="font-size:10px"> o </sup>C )</div>
+                                     <div class="list-card"  style="    box-shadow: 0px 0px 5px 0px  #ffa200;color:white; background-color:#ffa200;font-weight: 600;"> Bio Safety Cabinet</div>
+                                     <div class="list-card"  style="    box-shadow: 0px 0px 5px 0px  #bd72ff;color:white; background-color:#bd72ff;font-weight: 600;">BOD Incubator</div>
+                                     <div class="list-card"  style="    box-shadow: 0px 0px 5px 0px  #d7b9d5;color:white; background-color:#270024;font-weight: 600;">Colony Counter</div>
+                                     <div class="list-card"  style="    box-shadow: 0px 0px 5px 0px  #723d46;color:white; background-color:#ff183f;font-weight: 600;">Drying Oven</div>
+                                     <div class="list-card"  style="    box-shadow: 0px 0px 5px 0px  #6f1d1b;color:white; background-color:#6f1d1b;font-weight: 600;"> Rota Evaporator</div>
+                                     <div class="list-card"  style="    box-shadow: 0px 0px 5px 0px  #339989;color:white; background-color:#339989;font-weight: 600;">Autotitrator - Metrohm</div>
+                                     <div class="list-card"  style="    box-shadow: 0px 0px 5px 0px  #ffa1a1;color:white; background-color:#ffa1a1;font-weight: 600;"> Microscope</div>
+                                     <div class="list-card"  style="    box-shadow: 0px 0px 5px 0px  #ff9900;color:white; background-color:#ff9900;font-weight: 600;">KF/Columetric Titrator – Metrohm</div>
+                                     <div class="list-card"  style="    box-shadow: 0px 0px 5px 0px  #8a8100;color:white; background-color:#b3a700;font-weight: 600;"> Water Purification System-Elga</div>
+                                     <div class="list-card"  style="    box-shadow: 0px 0px 5px 0px  #587000;color:white; background-color:#516800;font-weight: 600;">Analytical Balances- Mettler and Shimadzu</div>
+                                     <div class="list-card"  style="    box-shadow: 0px 0px 5px 0px  #1ba300;color:white; background-color:#1ca800;font-weight: 600;">Auto Clave</div>
+                                     <div class="list-card"  style="    box-shadow: 0px 0px 5px 0px  #00c080;color:white; background-color:#00885b;font-weight: 600;">Drying Oven</div>
+                                     <div class="list-card"  style="    box-shadow: 0px 0px 5px 0px  #00685f;color:white; background-color:#00534c;font-weight: 600;"> 100 Liters Glass Assembly</div>
+                                     <div class="list-card"  style="    box-shadow: 0px 0px 5px 0px  #f200fa;color:white; background-color:#f200fa;font-weight: 600;">Vaccum Pumps</div>
+                                     <div class="list-card"  style="    box-shadow: 0px 0px 5px 0px  #4e0037;color:white; background-color:#4e0037;font-weight: 600;">Fume Hood / Muffle Furnace</div>
+                                     <div class="list-card"  style="    box-shadow: 0px 0px 5px 0px  #b892ff;color:white; background-color:#402e61;font-weight: 600;"> Vaccum Oven</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <p class="ml-0 ml-md-5 text-center">
+                        Ullmann Laboratories Private Limited established in 2012 is a leading provider of independent
+                        analytical
+                        services for chemical and microbiological attributes of products.Ullmann Laboratories Private
+                        Limited established in 2012 is a leading provider of independent analytical
+                        services for chemical and microbiological attributes of products.
+                    </p> -->
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container my-3">
+        <div class="page-title ">
+            <h2>Accreditations / Certifications</h2>
+        </div>
+        <div class="col-12">
+            <div class="wrapper">
+              
+                <div class="wrapper-item">
+                    <a href="./FASSI license.pdf" target="_blank">
+                    <img src="assets/images/icons/Fssai.webp"><br>
+                    FSSAI</a>
+                </div>
+                
+                <div class="wrapper-item">
+                    <a href="./fda.pdf" target="_blank">
+                    <img src="assets/images/icons/fda.webp"><br>
+                    Maharashtra State FDA Certified</a>
+                </div>
+                
+                <div class="wrapper-item">
+                    <a href="./pqc.pdf" target="_blank">
+                    <img src="assets/images/icons/pqc.jpg"><br>
+                   Paramount Quality Certificate</a>
+                </div>
+                <!-- <div class="wrapper-item">
+                    <img src="assets/images/icons/nabl.webp"><br>
+                    NABL
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <footer class="container-fluid bg-custom-primary pt-4 pb-4" w3-include-html="footern.html"></footer>
+    <script>
+        w3.includeHTML();
+        w3.slideshow(".slidshow", 3000);
+    </script>
+    <script src="assets/vendor/jquery/jquery.min.js"></script>
+    <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+    <script src="assets/vendor/popper/popper.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/vendor/waypoint/jquery.waypoints.min.js"></script>
+    <script src="assets/vendor/counterup/counterup.min.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/fancybox/jquery.fancybox.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/nivo-slider/js/jquery.nivo.slider.js"></script>
+    <script src="assets/vendor/OwlCarousel/owl.carousel.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script>
+
+
+
+
+
+    </script>
+</body>
+
+</html>

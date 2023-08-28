@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ullmann Laboratories</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/vendor/OwlCarousel/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="assets/vendor/OwlCarousel/assets/owl.theme.default.min.css">
+  <link rel="stylesheet" href="assets/vendor/nivo-slider/css/nivo-slider.css">
+  <link rel="stylesheet" href="assets/vendor/fancybox/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="assets/vendor/aos/aos.css">
+  <link rel="stylesheet" href="assets/vendor/icofont/icofont.min.css">
+  <link rel="stylesheet" href="assets/vendor/hover/hover-min.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="icon"  type="image/png"  href="./assets/images/fav.png">
+  <script src="assets/js/w3.js"></script>
+
+  <style>
+    .wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .wrapper-item {
+      width: 250px;
+      text-align: center;
+      border: 1px solid #d0d0d06e;
+      padding: 10px 0px;
+    }
+
+    .wrapper-item img {
+      height: 80px;
+      width: auto;
+      margin: 0 auto;
+      transition: all 1s;
+    }
+
+    .wrapper-item:hover {
+      box-shadow: 0px 0px 12px 0px #9e9e9e91;
+    }
+
+    .wrapper-item:hover {
+      box-shadow: 0px 0px 12px 0px #9e9e9e91;
+      color: rgb(1, 182, 122);
+      font-weight: 700;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container-fluid  box-shodow-custom border-md-radius" w3-include-html="header.html"></div>
+  <div class="container mt-3">
+    <div class="row">
+      <div class="col-12">
+        <div class="page-title " style="padding-bottom: 5px;">
+          <h2>Contact Us</h2>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <section id="contact" class="contact" style="padding: 0px;">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-12 text-justify">
+          <p>
+            Need assistance? Customer Care is here to help. To inquire about products and services found at
+            ullmannlab.com contact us by phone or e-mail, and we'll gladly assist you according to our privacy policy.
+          </p>
+
+        </div>
+      </div>
+
+    </div>
+
+    <div class="container ">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3751.9119422641293!2d75.49691071402052!3d19.88593988662839!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdba51216e774b1%3A0xebc4ca46e39d238b!2sUllmann%20Laboratories%20Pvt.Ltd.!5e0!3m2!1sen!2sin!4v1615984101329!5m2!1sen!2sin"
+        style="border:0; width: 100%; height: 350px;" allowfullscreen="" loading="lazy"></iframe>
+
+    </div>
+
+    <div class="container">
+
+      <div class="row mt-5">
+        <p class="text-center">
+          Please complete the fields below as specifically as possible. This will help to ensure the fastest and most
+          accurate response possible. To ensure proper e-mail delivery, please add ullmannlab.com to your address book.
+        </p>
+        <div class="col-lg-6">
+
+          <div class="row">
+            <div class="col-md-12">
+              <div class="info-box">
+                <i class="icofont-location-pin"></i>
+                <h3>Our Address</h3>
+                <p> Five Star 431154, Shendra MIDC, Gangapur Jahagir, Maharashtra, India</p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="info-box mt-4">
+                <i class="icofont-email"></i>
+                <h3>Email Us</h3>
+                <p>ati@ullmannlab.com <br>info@ullmannlab.com</p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="info-box mt-4">
+                <i class="icofont-ui-call"></i>
+                <h3>Call Us</h3>
+                <p>+91 9763101040<br> +91 9767222906</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-lg-6">
+          <form style="max-height: 350px!important;" method="post" action="sendmail.php" id="php-email-form" role="form" class="php-email-form">
+            <div class="form-row">
+              <div class="col form-group">
+                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
+                  data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                <div class="validate"></div>
+              </div>
+              <div class="col form-group">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email"
+                  data-rule="email" data-msg="Please enter a valid email" />
+                <div class="validate"></div>
+              </div>
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject"
+                data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+              <div class="validate"></div>
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" id="message" name="message" rows="5" data-rule="required"
+                data-msg="Please write something for us" placeholder="Message"></textarea>
+              <div class="validate"></div>
+            </div>
+            <div class="mb-3">
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Your message has been sent. Thank you!</div>
+            </div>
+            <div class="text-center"><button id="submitbtn" class="btn btn-primary"  type="submit">Send Message</button></div>
+          </form>
+        </div>
+
+      </div>
+
+    </div>
+  </section><!-- End Contact Section -->
+
+
+
+  <footer class="container-fluid bg-custom-primary pt-5 pb-4" w3-include-html="footern.html"></footer>
+  <script>
+    w3.includeHTML();
+
+
+  </script>
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/popper/popper.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets/vendor/waypoint/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/fancybox/jquery.fancybox.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/nivo-slider/js/jquery.nivo.slider.js"></script>
+  <script src="assets/vendor/OwlCarousel/owl.carousel.min.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.js"></script>
+  <script>
+    $(document).ready(function(){
+      $("#php-email-form").validate({
+      rules: {
+        name: {
+          required: true,
+        },
+        email: {
+          required: true,
+          email: true,
+        },
+        subject: {
+          required: true,
+        },
+        message: {
+          required: true,
+        },
+      }
+    });
+
+
+    });
+    
+   
+  </script>
+</body>
+
+</html>
